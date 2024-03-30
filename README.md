@@ -1,0 +1,1 @@
+Trying to make the pico ping example work on http server

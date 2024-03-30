@@ -11,7 +11,8 @@
 
 #include "FreeRTOS.h"
 #include "task.h"
-#include "ping.h"
+// #include "ping.h"
+#include "httpserver-netconn.h"
 
 #ifndef PING_ADDR
 #define PING_ADDR "142.251.35.196"
@@ -41,10 +42,10 @@ void main_task(__unused void *params)
         printf("Connected.\n");
     }
 
-    ip_addr_t ping_addr;
-    ipaddr_aton(PING_ADDR, &ping_addr);
-    ping_init(&ping_addr);
-
+    // ip_addr_t ping_addr;
+    // ipaddr_aton(PING_ADDR, &ping_addr);
+    // ping_init(&ping_addr);
+    http_server_netconn_init();
     while (true)
     {
         // not much to do as LED is in another task, and we're using RAW (callback) lwIP API

@@ -1,0 +1,28 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#17b1b1",
+        "activityBar.background": "#17b1b1",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#fbe3fb",
+        "activityBarBadge.foreground": "#15202b",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#17b1b1",
+        "statusBar.background": "#118484",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#17b1b1",
+        "statusBarItem.remoteBackground": "#118484",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#118484",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#11848499",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.remoteColor": "#118484",
+    "files.associations": {
+        "ping.h": "c",
+        "httpd.h": "c",
+        "httpserver-netconn.h": "c",
+        "ip4_addr.h": "c"
+    }
+}
